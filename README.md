@@ -2,6 +2,10 @@
  The Actor Model provides a higher level of abstraction for writing concurrent and distributed systems.
  It alleviates the developer from having to deal with explicit locking and thread management, making it easier to write correct concurrent and parallel systems. 
 
+ Use of Actors allows us to:
+ Enforce encapsulation without resorting to locks.
+ use the model of cooperative entities reacting to signals, changing state and sending signals to each other to drive the whole application forward.
+
  ## The Actor Model
  An Actor represents an independent computational unit.
  ### Characteristics of Actor Model
